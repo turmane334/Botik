@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: botik
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python botik.py
